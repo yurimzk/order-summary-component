@@ -10,10 +10,12 @@
     --pale-blue: hsl(225, 100%, 94%);
     --light-pale-blue: hsla(225, 100%, 94%, 0.3);
     --bright-blue: hsl(245, 75%, 52%);
+    --bright-blue-hover: hsl(245, 74%, 40%);
 
     --very-pale-blue: hsl(225, 100%, 98%);
     --dark-blue: hsl(223, 47%, 23%);
     --desaturated-blue: hsl(224, 23%, 55%);
+    --desaturated-blue-hover: hsl(224, 19%, 44%);
 }
 
 body {
@@ -93,4 +95,41 @@ body {
 .plan a {
     font-weight: 900;
     margin-left: 2.4rem;
+}
+
+.btn-pay, .btn-cancel a {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.btn-pay {
+    border: none;
+    font-size: 1.8rem;
+    border-radius: 1.2rem;
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    
+    font-weight: 700;
+    padding: 1.6rem 3.2rem;
+}
+
+.btn-pay:hover {
+    background-color: var(--bright-blue-hover);
+    cursor: pointer;
+}
+
+.btn-cancel {
+    border: none;
+    background-color: var(--very-pale-blue);
+}
+
+.btn-cancel a {
+    text-decoration: none;
+    font-size: 2.0rem;
+    font-weight: 900;
+    color: var(--desaturated-blue);
+}
+
+.btn-cancel a:hover {
+    color: var(--desaturated-blue-hover);
+    cursor: pointer;
 }
