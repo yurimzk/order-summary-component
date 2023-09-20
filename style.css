@@ -20,3 +20,16 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     background-color: var(--pale-blue);
 }
+
+#app {
+    margin: 1.6rem;
+    background-color: var(--very-pale-blue);
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+}
+
+#hero-banner img {
+    width: 100%;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+}
