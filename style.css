@@ -132,3 +132,27 @@ body {
     color: var(--desaturated-blue-hover);
     cursor: pointer;
 }
+
+@media (min-width: 1440px) {
+    body {
+        display: grid;
+        place-content: center;
+        height: 100vh;
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #app {
+        width: 24vw;
+    }
+
+    .plan {
+        justify-content: flex-start;
+        gap: .8rem;
+    }
+
+    .plan a {
+        margin-left: 4.0rem;
+    }
+}
