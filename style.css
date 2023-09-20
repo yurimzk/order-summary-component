@@ -27,8 +27,7 @@ body {
 #app {
     margin: 1.6rem;
     background-color: var(--very-pale-blue);
-    border-top-left-radius: 1.2rem;
-    border-top-right-radius: 1.2rem;
+    border-radius: 1.2rem;
 }
 
 #hero-banner img {
